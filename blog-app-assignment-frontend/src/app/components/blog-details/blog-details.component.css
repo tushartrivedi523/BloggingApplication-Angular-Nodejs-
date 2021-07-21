@@ -1,0 +1,33 @@
+
+.horizontalLine{
+    margin-top: 5vh;
+    border-bottom: 0.3rem dotted rgb(231, 102, 63);
+}
+.contentPart{
+    margin-top: 7vh;
+    margin-bottom: 7vh;
+}
+.contentPart__titleEditDelete{
+    display: flex;
+    flex-direction: row;
+}
+.contentPart__title{
+    width:90%;
+}
+.contentPart__editDelete{
+    width:9%;
+}
+.contentPart h2{
+    font-family: 'Baloo Tammudu 2', cursive;
+    color: blueviolet;
+    font-size: 2.6rem;
+}
+.contentPart p{
+    font-family: 'Indie Flower', cursive;
+    font-size: 1rem;
+}
+.contentPart .userId{
+    font-family: 'Indie Flower', cursive;
+    font-size: 1.2rem!important;
+    font-weight: bold;
+}

@@ -1,0 +1,21 @@
+body{
+    padding:0px;
+    margin:0px;
+    background-color: rgba(174, 220, 238, 0.815);
+    /* font-family: sans-serif; */
+}
+.header{
+    font-family: 'Baloo Tammudu 2', cursive;
+    text-align: center;
+    margin-top: 4vh;
+    color: blueviolet;
+    font-size: 5rem!important;
+
+}
+.subHeading{
+    font-family: 'Baloo Tammudu 2', cursive;
+    text-align: center;
+    margin-top: 4vh;
+    color: blueviolet;
+    /* font-size: 5rem!important; */
+}

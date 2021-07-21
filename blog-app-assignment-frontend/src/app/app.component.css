@@ -1,0 +1,77 @@
+body{
+    padding:0px;
+    margin:0px;
+    background-color: rgba(174, 220, 238, 0.815);
+    /* font-family: sans-serif; */
+}
+::-webkit-scrollbar {
+    display: none;
+  }
+.heading{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.heading__left{
+    /* text-align: center; */
+    margin-left: 10px;
+    font-size: 2.7rem;
+    margin-top: 2vh;
+    color: blueviolet;
+    font-family: 'Baloo Tammudu 2', cursive;
+    justify-content: flex-start;
+    width:80%;
+}
+.subHeading{
+    margin-top: -28px!important;
+    margin-left: 5px;
+    font-family: 'Indie Flower', cursive;
+    color: rgb(150, 63, 231);
+    font-size: 1.3rem;
+}
+.heading__right{
+    width:20%;
+    margin-top: 2vh;
+    text-align: end;
+    margin-right: 2vh;
+    font-family: 'Indie Flower', cursive;
+    color: rgb(231, 102, 63);
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.yourBlogs{
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
+    font-weight: bold;
+    color:blueviolet;
+    margin-bottom: 5vh;
+}
+
+.table__th{
+    text-decoration: none;
+    font-family: 'Baloo Tammudu 2', cursive!important;
+    color:blueviolet!important;
+    font-size: 1.5rem;
+}
+.table__td a{
+    text-decoration: none;
+    font-family: 'Baloo Tammudu 2', cursive!important;
+    color: rgb(231, 102, 63)!important;
+
+}
+.table__td a:hover{
+    color:blueviolet!important;
+}
+.newPost{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+.addPostBtn{
+    border: none;
+    border-radius: 5px;
+}
+.addPostBtn:hover{
+    background-color: rgb(231, 102, 63);
+}

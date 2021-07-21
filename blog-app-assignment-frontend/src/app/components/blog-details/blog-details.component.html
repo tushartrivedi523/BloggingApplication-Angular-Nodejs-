@@ -1,0 +1,21 @@
+<div class="container">
+    <div class="horizontalLine"></div>
+        <div class="contentPart" *ngFor="let item of blogs">
+            <div *ngIf="item._id === itemId">
+            <div class="contentPart__titleEditDelete">
+                <div class="contentPart__title">
+                    <h2 class="text-center">{{item.title}}</h2> 
+                </div>
+                <div class="contentPart__editDelete">
+                    <fa-icon style="cursor: pointer;" routerLink="/edit/{{item._id}}" routerLinkActive="router-link-active"  [icon]="faPencilAlt"></fa-icon>
+                    <fa-icon style="cursor: pointer; margin-left: 2vw" [icon]="faTrashAlt" (click)="deleteBlog()"  [routerLink]="['/blogList']" routerLinkActive="router-link-active" ></fa-icon>
+                </div> 
+            </div>
+            
+            <p class="text-center">{{item.content}}</p>
+
+            <div class="mt-5 userId text-muted">-{{item.userId}}</div>
+            </div>
+        </div>
+
+</div>

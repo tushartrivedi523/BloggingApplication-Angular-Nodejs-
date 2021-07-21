@@ -1,0 +1,36 @@
+
+.yourBlogs{
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
+    font-weight: bold;
+    color:blueviolet;
+    margin-bottom: 5vh;
+}
+
+.table__th{
+    text-decoration: none;
+    font-family: 'Baloo Tammudu 2', cursive!important;
+    color:blueviolet!important;
+    font-size: 1.5rem;
+}
+.table__td a{
+    text-decoration: none;
+    font-family: 'Baloo Tammudu 2', cursive!important;
+    color: rgb(231, 102, 63)!important;
+
+}
+.table__td a:hover{
+    color:blueviolet!important;
+}
+.newPost{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+.addPostBtn{
+    border: none;
+    border-radius: 5px;
+}
+.addPostBtn:hover{
+    background-color: rgb(231, 102, 63);
+}

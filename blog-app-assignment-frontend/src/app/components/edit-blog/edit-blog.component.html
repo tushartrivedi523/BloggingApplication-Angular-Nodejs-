@@ -1,0 +1,15 @@
+<form>
+    <div class="mb-3">
+      <label for="title" class="form-label">Title</label>
+      <input type="text" class="form-control" id="title" name="title" value="{{fetchedBlog.title}}"  autocomplete="off" [(ngModel)]="currentBlog.title" required>
+    </div>
+    <div class="mb-3">
+      <label for="categories" class="form-label">Categories</label>
+      <input type="text" class="form-control" name="categories" id="categories" value="{{fetchedBlog.category}}"  [(ngModel)]="currentBlog.category" autocomplete="off" required>
+    </div>
+    <div class="mb-3">
+        <label for="content" class="form-label">Content</label><br>
+        <textarea class="form-label" name="content" id="content" [(ngModel)]="currentBlog.content" rows="6" cols="120" value="{{fetchedBlog.content}}" required></textarea>
+    </div>
+    <button (click)="updateTutorial()" [routerLink]="['/blogList']" routerLinkActive="router-link-active"  class="btn btn-primary">Submit</button>
+</form>

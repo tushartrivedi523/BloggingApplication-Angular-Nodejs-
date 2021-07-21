@@ -1,0 +1,44 @@
+body{
+    padding:0px;
+    margin:0px;
+    background-color: rgba(174, 220, 238, 0.815);
+    /* font-family: sans-serif; */
+}
+::-webkit-scrollbar {
+    display: none;
+  }
+
+  .heading{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.heading__left{
+    /* text-align: center; */
+    margin-left: 10px;
+    font-size: 2.7rem;
+    margin-top: 2vh;
+    color: blueviolet;
+    font-family: 'Baloo Tammudu 2', cursive;
+    justify-content: flex-start;
+    width:80%;
+}
+.subHeading{
+    margin-top: -28px!important;
+    margin-left: 5px;
+    font-family: 'Indie Flower', cursive;
+    color: rgb(150, 63, 231);
+    font-size: 1.3rem;
+}
+.heading__right{
+    width:20%;
+    margin-top: 3vh;
+    text-align: end;
+    margin-right: 2vh;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+form{
+    margin-top:5vh;
+}

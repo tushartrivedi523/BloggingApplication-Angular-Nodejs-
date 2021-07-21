@@ -1,0 +1,16 @@
+<div class="container">
+    <div class="heading">
+        <div class="heading__left">
+            <div><a style="text-decoration: none; color: blueviolet" [routerLink]="['/blogList']" routerLinkActive="router-link-active" > Reader's Hub</a></div>
+            <div class="subHeading">A hoard for readers!</div>
+        </div>
+        <div class="heading__right">
+            <div class="welcomeMessage"><b>Welcome</b> Champ</div>
+        </div>  
+    </div> 
+    <h2 class="yourBlogs" style="text-align: center;"><u>Blogs</u></h2>
+    
+    <router-outlet></router-outlet>
+
+    <!-- <app-blog-list></app-blog-list> -->
+</div>

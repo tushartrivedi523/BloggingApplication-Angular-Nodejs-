@@ -1,0 +1,10 @@
+/* You can add global styles to this file, and also import other style files */
+body{
+    padding:0px;
+    margin:0px;
+    background-color: rgba(174, 220, 238, 0.815);
+    /* font-family: sans-serif; */
+}
+::-webkit-scrollbar {
+    display: none;
+  }

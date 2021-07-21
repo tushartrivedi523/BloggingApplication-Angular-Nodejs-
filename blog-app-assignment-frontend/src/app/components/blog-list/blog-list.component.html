@@ -1,0 +1,24 @@
+<div class="blogsList container">
+    <h2 *ngIf="blogs.length==0">No Posts Available</h2>
+    <table class="table" *ngIf="blogs.length > 0">
+      <thead>
+        <tr>
+          <th class="text-center table__th" scope="col">Title</th>
+          <th class="text-center table__th" scope="col">Category</th>
+        </tr>
+      </thead>
+      <tbody>
+          <!-- <tr *ngIf="blogs.length <=0"><td><h2>No Posts Available</h2></td></tr> -->
+        <tr *ngFor="let item of blogs">
+            <td class="text-center table__td"><a routerLink="/blogList/{{item._id}}" >{{item.title}}</a></td>
+            <td class="text-center table__td"><a routerLink="/blogList/{{item._id}}">{{item.category}}</a></td>
+        </tr>
+      </tbody>
+    </table>
+    <div class="newPost container">
+      <form action="/newPost" method="POST">
+        <button class="btn btn-warning" [routerLink]="['/add']" routerLinkActive="router-link-active" >New Post</button>
+      </form>
+        <!-- <a href="/newPost/?userId=<%=userId%>"><button class="addPostBtn">Add New Post</button></a> -->
+    </div>
+  </div>
